@@ -1,7 +1,14 @@
-#Problema 1
+##Problema 1
 
-mathjax 3
+$1 = 2 * a_(text(hi))$ 
 
-$1/3$
+$[[a, b],[c, d]]$
 
-$sqrt(2_c^3)$
+$1 / 2 * (a + 5a)$
+```
+No language indicated, so no syntax highlighting. 
+But let's throw in a <b>tag</b>.
+```
+'a'
+
+wena los k ajaj asd
