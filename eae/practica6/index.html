@@ -1,6 +1,6 @@
 <!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><style>body {
   max-width: 980px;
-  border: 1px solid #ddd; 
+  border: 1px solid #ddd;
   outline: 1300px solid #fff;
   margin: 16px auto;
 }
@@ -994,14 +994,15 @@ body .markdown-body
 }
 </style><script>window.MathJax = {
 	startup: {
-		output: "svg"
+		output: "chtml"
 	},
 	loader: {
-		load: ["input/asciimath", "output/svg"]
+		load: ["input/asciimath", "output/chtml"]
 	},
-	svg: {
+	chtml: {
 		scale: 1,
 		mathmlSpacing: true,
+		matchFontHeight: false,
 	},
 	asciimath: {
 		delimiters: [["$", "$"]],
@@ -1076,7 +1077,6 @@ body .markdown-body
 .codehilite .gc{color:#999;background-color:#EAF2F5}
 </style><title>fuente</title></head><body><article class="markdown-body"><p><img alt="" src="p.png" /></p>
 <p>$I_(x x) = 4 * ((40[mm])^2 * 100[mm^2]) = 1.17 * 10^6[mm^4]$</p>
-<p><img alt="" src="integral.png" /></p>
 <p>$q_S = -S_y/I_(x x) [int_0^s t_D * y * ds + sum_(r=1)^n B_r * y_r]$</p>
 <p>$q_(b,01) = -S_y/I_(x x) int_0^(s_1) 0.64[mm] * s_1 * ds_1$</p>
 <p>$=&gt; -S_y/I_(x x) * 0.32[mm] * s_1^2 = -S_y * 2.735 * 10^-7 [mm^-3] * s_1^2$</p>
@@ -1092,7 +1092,7 @@ body .markdown-body
 <p>$oint_0^40 q_(b,01)ds_1 = -S_y * 2.735 * 10^-7 [mm^-3] * (40[mm])^2 $</p>
 <p>$=&gt; -S_y * 4.376 * 10^-4[mm^-1]$</p>
 <p>$oint_0^240 q_(b,12)ds_2 = -S_y (2.188 * 10^-5[mm^-2] * s_2 + 3.418 * 10^-3 [mm^-1]) + q_(b,01)$</p>
-<p>$=&gt; -S_y (2.188 * 10^-5[mm^-2] * 240[mm] + 3.418 * 10^-3 [mm^-1]) + q_(b,01)$</p>
+<p>$=&gt; -S_y (2.188 * 10^-5[mm^-2] * 240[mm] + 3.418 * 10^-3 [mm^]) + q_(b,01)$</p>
 <p>$=&gt; -S_y * 8.669 * 10^-3[mm^-1] - S_y * 4.376 * 10^-4[mm^-1]$</p>
 <p>$=&gt; -S_y * 9.106 * 10^-3[mm^-1]$</p>
 <p>$oint_0^40 q_(b,23) ds_3 = -S_y (1.230 * 10^-5[mm^-2] * s_3 - s_3^2 * 1.538 * 10^-7[mm^-3]) + q_(b,12)$</p>
